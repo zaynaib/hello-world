@@ -1,13 +1,15 @@
 import React from "react"
 import Main from "../components/main"
+import mainStyles from "../style/tut-styles.css"
+import rowStyles from "../components/port-styles.module.css"
 
 
 
 export default function Layout() {
   return (
     <Main>
-
-    <div class="row">
+    <div className="wrapper">
+    <div className = {rowStyles.row}>
     <div>one</div>
     <div>two</div>
     <div>three</div>
@@ -16,7 +18,7 @@ export default function Layout() {
     </div>
 
     
-    <div class="row">
+    <div className = {rowStyles.row}>
     <div>one</div>
     <div>two</div>
     <div>three</div>
@@ -25,7 +27,7 @@ export default function Layout() {
     </div>
 
     
-    <div class="row">
+    <div className = {rowStyles.row}>
     <div>one</div>
     <div>two</div>
     <div>three</div>
@@ -37,7 +39,7 @@ export default function Layout() {
 
    
 
-  
+    </div>
     
     </Main>
     
