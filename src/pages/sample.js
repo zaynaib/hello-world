@@ -2,8 +2,10 @@ import React from "react"
 
 import { Link } from "gatsby"
 
+
 import Main from "../components/main"
 import Container from "../components/container"
+import styes from "../style/tut-styles.css"
 
 
 export default function Layout() {
@@ -11,7 +13,7 @@ export default function Layout() {
     <Main>
 <Container>
     <div class="left">
-      <img src="https://angela-li.github.io/img/avatar.jpg"/>
+      <img className="avatar" src="https://angela-li.github.io/img/avatar.jpg"/>
       <h1>
         Hi! I'm Angela. I'm a data scientist, spatial thinker, and community builder.
       </h1>
