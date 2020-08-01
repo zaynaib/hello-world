@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import headerStyles from "./tut-styles.module.css"
 export default function Header() {
   return (
     <header>

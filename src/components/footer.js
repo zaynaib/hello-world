@@ -1,17 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import footerStyles from "./container.module.css"
+import footerStyles from "./footer.module.css"
 
 
-export default function Header() {
+export default function Footer() {
   return (
     <footer>
 
-    <h1> 
     <Link  to="/">My Site Name</Link>
+    <Link  to="/port">Portfolio</Link>
 
-    </h1>
+
 
     </footer>
   )

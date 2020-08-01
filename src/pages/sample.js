@@ -1,12 +1,6 @@
 import React from "react"
-
-import { Link } from "gatsby"
-
-
 import Main from "../components/main"
 import Container from "../components/container"
-import styes from "../style/tut-styles.css"
-
 
 export default function Layout() {
   return (

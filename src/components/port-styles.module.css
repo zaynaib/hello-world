@@ -1,11 +1,35 @@
-.row{
+ .row{
     
     display:flex;
     justify-content: space-between;
     height: 100px;
     align-content: space-between;
+    margin-top: 10px;
+} 
 
-    /* grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 50px 50px; */
+.row div{
+
+    width: 100px;
+    height: 100px;
+
+}
+.one {
+    background-color: yellow;
+ 
 }
 
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color:purple;
+}
+
+.four{
+    background-color: green;
+}
+
+.five{
+    background-color: pink;
+}
