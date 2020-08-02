@@ -1,26 +1,28 @@
 import React from "react"
 import Main from "../components/main"
-import Container from "../components/container"
+import containerStyles from "../styles/container.module.css"
 
 export default function Layout() {
   return (
     <Main>
-<Container>
+    <div className={containerStyles.container}>
     <div class="left">
-      <img className="avatar" src="https://angela-li.github.io/img/avatar.jpg"/>
+      <img className="avatar" src="../../profile.jpg"/>
       <h1>
-        Hi! I'm Angela. I'm a data scientist, spatial thinker, and community builder.
+        Hi! I'm Angel. I'm a data scientist and a team player.
       </h1>
     </div>
 
     <div class="right">
         <p>
-          I’m currently working as the R Spatial Advocate for the Center for Spatial Data Science at UChicago. Most recently, I did data science for transit at TransLoc and wrote a spatial econometrics thesis on the Detroit housing market.
+        Lucas ipsum dolor sit amet tusken raider naboo luke dagobah grievous coruscant ackbar biggs amidala grievous. Palpatine ponda secura tatooine calrissian dagobah darth. Calrissian ventress utapau zabrak obi-wan. Jinn jawa antilles darth moff jinn hutt. Organa sidious organa mon. Hutt jar maul calamari ackbar antilles boba. Solo biggs ewok han kashyyyk. Twi'lek amidala moff darth ponda c-3p0. Wicket gamorrean fisto organa ahsoka jango wedge. Jabba lobot han wicket palpatine. Darth darth antilles antilles mon kit.
+
         </p>
         
         
         <p>
-          In my day to day, I work closely with Luc Anselin, leading workshops for researchers at our center and building out spatial analysis resources for applied social science research. I also speak at conferences about spatial data science and methods. I am currently also leading a seven-person Geospatial Track team for useR! 2020.
+        Ken griffey jr cut-off jean shorts as I lay me down to sleep wonderwall destiny’s child, converse parting your hair down the middle gangsta rap jurassic park airwalk tim “the tool man” taylor. Chronic sonic the hedgehog reebok pumps ain’t no thang digital pets joey tribbiani, beavis and butthead discovery zone hush puppies chillax christina aguilera des’ree. Warheads apollo 13 keds hoodies, game boy color can’t touch this savage garden dallas cowboys lion king. Royal stewart tartan arsenio hall leggings deep blue playa.
+
           
         </p>
 
@@ -34,7 +36,7 @@ export default function Layout() {
       
       </div>
     
-      </Container>
+     </div>
     </Main>
     
    

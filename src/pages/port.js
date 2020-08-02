@@ -1,6 +1,6 @@
 import React from "react"
 import Main from "../components/main"
-import rowStyles from "../components/port-styles.module.css"
+import rowStyles from "../styles/port-styles.module.css"
 
 
 
